@@ -1,0 +1,13 @@
+ENV["RAILS_ENV"] ||= 'test'
+
+require File.expand_path("../../config/environment", __FILE__)
+require 'rspec/rails'
+#require 'capybara/rspec'
+#require 'capybara/rails'
+
+#Capybara.javascript_driver = :webkit
+#Capybara.app_host = 'http://localhost:3000'
+
+RSpec.configure do |config|
+  config.mock_with :rspec
+end
