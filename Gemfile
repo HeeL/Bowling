@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
-gem 'sqlite3'
 gem 'jquery-rails'
 
 group :assets do
@@ -9,6 +8,7 @@ group :assets do
 end
 
 group :development do
+  gem 'sqlite3'
   gem "rspec-rails", ">= 2.6"
   gem 'capybara'
   gem 'uglifier'
@@ -16,6 +16,5 @@ group :development do
 end
 
 group :production do
-  #gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
   gem 'pg'
 end
