@@ -33,4 +33,5 @@ complete the score of the strike.
 * Likewise, if a spare is thrown in the tenth frame, the player may throw one more ball
 to complete the score of the spare.
 * Thus the tenth frame may have three balls instead of two.
+
 For background information, please see http://en.wikipedia.org/wiki/Ten-pin_bowling
