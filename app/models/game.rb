@@ -2,7 +2,7 @@ class Game
   attr_reader :error_message, :frame_number, :frame
 
   FRAMES = 10
-  PINS = 10
+  PINS   = 10
 
   def initialize(params, frame)
     @frame = frame.nil? ? [nil] : frame
