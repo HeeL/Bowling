@@ -1,7 +1,9 @@
 Setup and Run
 =============
 To setup all the necessary gems run the `bundle` command
+
 Run the rails server `rails s`
+
 To run specs use the `rspec` command
 
 
