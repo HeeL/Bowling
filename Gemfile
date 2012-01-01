@@ -11,4 +11,6 @@ end
 group :development do
   gem "rspec-rails", ">= 2.6"
   gem 'capybara'
+  gem 'uglifier'
+  gem 'heroku'
 end
